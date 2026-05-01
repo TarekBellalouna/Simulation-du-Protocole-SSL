@@ -34,11 +34,9 @@ Pour éviter les conflits de dépendances, nous utilisons un environnement virtu
 
 ### 1. Créer l'environnement virtuel
 * **Sous Windows :** `python -m venv venv`
-* **Sous Linux / macOS :** `python3 -m venv venv`
 
 ### 2. Activer l'environnement virtuel
 * **Sous Windows :** `venv\Scripts\activate`
-* **Sous Linux / macOS :** `source venv/bin/activate`
 
 ### 3. Installer les dépendances
 Une fois l'environnement activé (le préfixe `(venv)` doit apparaître dans votre terminal), installez les librairies requises :
