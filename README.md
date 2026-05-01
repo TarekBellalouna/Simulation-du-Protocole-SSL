@@ -24,9 +24,23 @@ Pour faire tourner ce projet en local, vous avez besoin de :
 * **Python 3.x**
 * Un broker MQTT local, comme **Mosquitto** (écoutant sur `127.0.0.1:1883`).
 
-## 🚀 Installation
+## 🚀 Installation & Configuration
 
-1. Clonez ce dépôt sur votre machine locale :
+Clonez ce dépôt sur votre machine locale :
    ```bash
-   git clone <url-de-ton-depot>
-   cd <nom-du-dossier>
+   git clone https://github.com/TarekBellalouna/Simulation-du-Protocole-SSL.git
+   
+Pour éviter les conflits de dépendances, nous utilisons un environnement virtuel Python. Ouvrez un terminal à la racine du projet et suivez ces étapes :
+
+### 1. Créer l'environnement virtuel
+* **Sous Windows :** `python -m venv venv`
+* **Sous Linux / macOS :** `python3 -m venv venv`
+
+### 2. Activer l'environnement virtuel
+* **Sous Windows :** `venv\Scripts\activate`
+* **Sous Linux / macOS :** `source venv/bin/activate`
+
+### 3. Installer les dépendances
+Une fois l'environnement activé (le préfixe `(venv)` doit apparaître dans votre terminal), installez les librairies requises :
+```bash
+pip install -r requirements.txt
